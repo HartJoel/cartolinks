@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🔧 **Tech Stack**:
 
-## Getting Started
+* ⚡ Next.js 14 (App Router)
+* 🟦 TypeScript
+* 🎨 Tailwind CSS + shadcn/ui
+* 🎞️ Framer Motion (for animations)
 
-First, run the development server:
+---
+
+## ✨ Features
+
+* 📱 **Responsive Design**: Works seamlessly across desktop and mobile.
+* 🧩 **Modern UI Components**: Built with `shadcn/ui` + Tailwind custom styles.
+* 🎬 **Animations**: Smooth, subtle transitions via Framer Motion.
+* 🖼️ **Carousel Support**: Auto-scrolling, customizable image carousel.
+* ♻️ **Reusable Components**: Clean structure for scalability.
+
+---
+
+## 🖼️ Preview
+
+> A modern UI inspired by Kreev AI, recreated with attention to detail and smooth UX.
+(.![Project Preview](app/screenshoot1.png))
+
+## 📂 Folder Structure
 
 ```bash
+app
+ ├── favicon.ico
+ ├── globals.css        # 🌍 Global Tailwind + custom styles
+ ├── layout.tsx         # 🏗️ Root layout
+ └── page.tsx           # 📄 Main page (entry point)
+
+components
+ ├── provider
+ │   └── theme-provider.tsx   # 🎨 Theme handling
+ └── ui
+     ├── Carousel.tsx         # 🖼️ Carousel component
+     ├── Footer.tsx           # 👣 Footer section
+     ├── Generate.tsx         # ⚡ Generate section
+     ├── Navbar.tsx           # 🧭 Navbar with links & branding
+     └── theme.tsx            # 🎭 Theme handling
+
+constants
+ └── index.ts           # 🔑 Constants for nav links, etc.
+
+lib
+ └── utils.ts           # 🛠️ Utility functions
+
+public
+ ├── image.webp         # 📷 Assets
+ ├── image1.webp
+ ├── image2.webp
+ ├── image3.webp
+ ├── image4.webp
+ ├── image5.webp
+ ├── image6.webp
+ ├── image7.webp
+ ├── image8.webp
+ ├── krea-logo.webp
+ ├── logo-krea-ai.webp
+ └── mobbin.webp
+
+
+## ⚡ Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/HartJoel/cartolinks.git
+cd cartolinks
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👨‍💻 Author
 
-To learn more about Next.js, take a look at the following resources:
+* **Joel Hart**
+  🔗 GitHub: [HartJoel](https://github.com/HartJoel)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Notes
 
-## Deploy on Vercel
+This project was part of a **UI/Frontend competition task** to test skills in:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 🎨 UI replication
+* ⚡ Modern frontend stack usage
+* 🏗️ Code structure & responsiveness
+* 🎬 Animation implementation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+👉 Do you want me to also add a **"📚 What I Learned" section** (with icons too) so it highlights your growth for the competition judges?
