@@ -1,3 +1,8 @@
+🎨 Kreev AI UI Replication
+
+This project was built as part of a competition internship task.
+The challenge was to replicate the UI of Kreev AI with a focus on clean design, responsiveness, animations, and modern web technologies.
+
 🔧 **Tech Stack**:
 
 * ⚡ Next.js 14 (App Router)
@@ -20,7 +25,8 @@
 ## 🖼️ Preview
 
 > A modern UI inspired by Kreev AI, recreated with attention to detail and smooth UX.
-(.![Project Preview](app/screenshoot1.png))
+(.![Project Preview](/screenshoot1.png))
+(.![Project Preview](/screenshoot2.png))
 
 ## 📂 Folder Structure
 
@@ -99,4 +105,3 @@ This project was part of a **UI/Frontend competition task** to test skills in:
 
 ---
 
-👉 Do you want me to also add a **"📚 What I Learned" section** (with icons too) so it highlights your growth for the competition judges?
